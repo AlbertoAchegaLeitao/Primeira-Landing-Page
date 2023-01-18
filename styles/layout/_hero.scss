@@ -1,0 +1,40 @@
+.hero {
+  padding: 6rem 0 3rem 0;
+  background-image: url(/imagens/hero/macro.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__text {
+    background-color: white;
+    padding: 10px;
+    opacity: 0.7;
+
+  }
+
+  &__text a i {
+    font-size: 2rem;
+    color: #ecb939;
+    margin-right: 10px;
+  }
+
+  &__text a i:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+
+  &__text img {
+    width: 100%;
+  }
+
+
+}

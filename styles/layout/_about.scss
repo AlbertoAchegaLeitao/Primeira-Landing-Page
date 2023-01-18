@@ -1,0 +1,19 @@
+.about {
+  background-color: #726255;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3rem 0;
+    align-items: center;
+    text-align: center;
+  }
+  &__image img {
+    width: 100%;
+  }
+  &__text {
+    padding: 10px;
+    color: white;
+  }
+}

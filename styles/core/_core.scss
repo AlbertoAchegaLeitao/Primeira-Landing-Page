@@ -1,0 +1,19 @@
+@import "reset";
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding: 0 10rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+@media (max-width: 1130px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+}

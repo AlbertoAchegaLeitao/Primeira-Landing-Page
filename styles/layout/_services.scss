@@ -1,0 +1,27 @@
+.services {
+  padding: 3rem 0;
+
+  &__wrapper h2 {
+    padding: 1rem 10px;
+    text-align: center;
+  }
+
+  &__gridwrapper {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  &__grid-item {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  &__grid-item i {
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+    background-color: #ecb939;
+  }
+}

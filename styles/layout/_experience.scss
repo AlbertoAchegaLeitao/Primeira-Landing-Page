@@ -1,0 +1,40 @@
+.experience {
+  padding: 3rem 0;
+
+  &__wrapper h2 {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  &__gridwrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  &__text {
+    padding: 10px;
+  }
+
+  &__anchor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__anchor a {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+  }
+
+  &__anchor a:hover {
+    color: #f0c75e;
+    transition: 0.3s;
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,29 @@
+.footer {
+  background-color: #372e29;
+  padding: 3rem 0;
+
+  &__text {
+    padding: 10px;
+  }
+
+  &__text h2,
+  p {
+    color: white;
+  }
+
+  &__text hr {
+    width: 125px;
+  }
+  &__button {
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    background-color: Transparent;
+    border: none;
+  }
+  &__button:hover {
+    color: #000;
+    cursor: pointer;
+  }
+}
+

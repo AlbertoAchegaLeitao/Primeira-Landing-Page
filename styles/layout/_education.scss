@@ -1,0 +1,36 @@
+.education {
+  background-color: #726255;
+  padding: 3rem 0;
+
+  &__progress {
+    padding: 5px;
+    width: 90%;
+    background-color: #ecb939;
+    color: black;
+  }
+
+  &__progress2 {
+    padding: 5px;
+    width: 90%;
+    background-color: #ecb939;
+    color: black;
+  }
+
+  &__progress3 {
+    padding: 5px;
+    width: 20%;
+    background-color: #ecb939;
+    color: black;
+  }
+
+  &__text {
+    padding: 10px;
+    color: white;
+  }
+
+  &__text hr {
+    width: 310px;
+    background-color: white;
+    border: 1px solid white;
+  }
+}

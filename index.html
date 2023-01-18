@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b5e3763c23.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>AlbertoAL</title>
+  </head>
+  <!-- https://michalsnik.github.io/aos/ -->
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar__wrapper">
+            <h1 class="navbar__logo"><a href="#hero">AlbertoPhoto</a></h1>
+
+            <p class="navbar__toggle-button" id="togglebutton">
+              <span class="navbar__bar"></span>
+              <span class="navbar__bar"></span>
+              <span class="navbar__bar"></span>
+            </p>
+
+            <ul class="navbar__menu" id="navbarmenu">
+              <li id="menuitem1"><a href="#about">About</a></li>
+              <li id="menuitem2"><a href="#services">Services</a></li>
+              <li id="menuitem3"><a href="#work">Works</a></li>
+              <li id="menuitem4"><a href="#experience">Experience</a></li>
+              <li id="menuitem5"><a href="#education">Education</a></li>
+              <li id="menuitem6"><a href="#footer">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__text">
+              <h1>Photography / Design</h1>
+              <br />
+              <p>
+                Hi, I'm photographer with a nerd like aproach to visual culture.
+              </p>
+              <br />
+              <a
+                href="https://www.linkedin.com/in/alberto-achega-leitao"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/alfacinharabugento/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+            <img
+              class="hero__image"
+              src="imagens/alberto.jpg"
+              alt="hero image"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Quotes -->
+      <section class="quotes" id="quotes">
+        <div class="container">
+          <div class="quotes__wrapper" id="quoteswrapper"></div>
+        </div>
+      </section>
+      <!-- About -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__image">
+              <img src="imagens/aboutimage.jpg" alt="about image" />
+            </div>
+
+            <div class="about__text">
+              <h1 class="about__1">Why Photography</h1>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br />
+                Necessitatibus aspernatur minus architecto sapiente nostrum
+                <br />
+                doloribus mollitia neque rem officiis alias autem, praesentium
+                dicta <br />
+                inventore incidunt consequuntur iusto, impedit repellendus at?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services -->
+      <section class="services" id="services">
+        <div class="container">
+          <div class="services__wrapper">
+            <h2>MY SERVICES</h2>
+            <div class="services__gridwrapper">
+              <div class="services__grid-item">
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photography</h2>
+                <p>Events, weddings, baptisms, studio, packshot, sports</p>
+              </div>
+              <div class="services__grid-item">
+                <i class="fa-solid fa-sliders"></i>
+                <h2>Editing</h2>
+                <p>Photo editing, image restauration</p>
+              </div>
+              <div class="services__grid-item">
+                <i class="fa-solid fa-film"></i>
+                <h2>Analog</h2>
+                <p>Developing, printing and digitizing film</p>
+              </div>
+              <div class="services__grid-item">
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h2>Equipment</h2>
+                <p>Equipment renting</p>
+              </div>
+              <div class="services__grid-item">
+                <i class="fa-solid fa-camera-rotate"></i>
+                <h2>Workshops</h2>
+                <p>
+                  Digital and analog photography workshop. Shooting, editing and
+                  developing
+                </p>
+              </div>
+              <div class="services__grid-item">
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h2>Design</h2>
+                <p>Flyers, mupis, outdoors, etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Works -->
+      <section class="work" id="work">
+        <div class="container">
+          <div class="work__wrapper">
+            <h2>MY WORK</h2>
+            <div class="work__griditems">
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>
+                  Summer <br />
+                  Camps
+                </h3>
+                <img
+                  src="imagens/work/campoferias.jpg"
+                  alt="campos de ferias"
+                />
+              </div>
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>Concerts</h3>
+                <img src="imagens/work/concerto.jpg" alt="concerto" />
+              </div>
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>Editorial</h3>
+                <img src="imagens/work/editorial.jpg" alt="editorial" />
+              </div>
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>Everyday Life</h3>
+                <img src="imagens/work/everydaylife.jpg" alt="everyday life" />
+              </div>
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>Analog Everyday Life</h3>
+                <img
+                  src="imagens/work/everydaylifeanalog.jpg"
+                  alt="analogico"
+                />
+              </div>
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>Food</h3>
+                <img src="imagens/work/food.jpg" alt="food" />
+              </div>
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>Macro</h3>
+                <img src="imagens/work/macro.jpg" alt="macro" />
+              </div>
+
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>Packshot</h3>
+                <img src="imagens/work/packshot.jpg" alt="packshot" />
+              </div>
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>Sessions</h3>
+                <img src="imagens/work/session.jpg" alt="session" />
+              </div>
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>Studio</h3>
+                <img src="imagens/work/studio.jpg" alt="studio" />
+              </div>
+              <div data-aos="flip-right" data-aos-duration="1000">
+                <h3>Theater</h3>
+                <img src="imagens/work/theater.jpg" alt="theater" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Experience -->
+      <section class="experience" id="experience">
+        <div class="container">
+          <div class="experience__wrapper">
+            <h2>MY EXPERIENCE</h2>
+            <div class="experience__gridwrapper">
+              <div class="experience__text">
+                <p>
+                  I have worked with multiple types of clients. I have worked
+                  with established companies, startups, summer camps and
+                  independant workers. You've seen my work above, now you can go
+                  get some references.
+                </p>
+              </div>
+              <div class="experience__anchor">
+                <a href="https://www.mycamp.pt/contactos/" target="_blank"
+                  >MyCamp</a
+                >
+                <a
+                  href="https://www.sportino.pt/site_contactar.php"
+                  target="_blank"
+                  >Sportino</a
+                >
+                <a href="https://centrimagem.com/contactos/" target="_blank"
+                  >Centrimagem</a
+                >
+                <a href="https://www.misterman.com.pt/" target="_blank"
+                  >Mister Man</a
+                >
+                <a href="https://www.dedal.pt/pages/contacts" target="_blank"
+                  >Dedal</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Education -->
+      <section class="education" id="education">
+        <div class="container">
+          <div class="education__wrapper">
+            <div class="education__text">
+              <h2>Education</h2>
+              <br />
+              <p>Master Design and Visual Culture</p>
+              <hr />
+              <br />
+              <p>Bachelor Photoggraphy and Visual Culture</p>
+              <hr />
+              <br />
+              <p>Cambridge C2 English Diploma</p>
+              <hr />
+              <br />
+              <br />
+              <h2>Skills</h2>
+              <br />
+              <p class="education__progress">Adobe Package</p>
+              <br />
+              <p class="education__progress">Photography</p>
+              <br />
+              <p class="education__progress3">Html & Css</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__text">
+            <!-- Trigger Modal -->
+            <button class="footer__button" id="get-modal">Contact Me</button>
+            <!-- Modal -->
+            <div class="footer__modal-container" id="modal">
+              <span class="footer__closemodal" id="close-modal">&times;</span>
+              <div class="footer__modal">
+                <form action="">
+                  <label id="formname" for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                  />
+                  <label for="phone">Phone</label>
+                  <input
+                    type="text"
+                    id="phone"
+                    name="phone"
+                    placeholder="Your Phone"
+                  />
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email"
+                  />
+                  <label for="subject">Subject</label>
+                  <textarea
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Your Message..."
+                  ></textarea>
+                </form>
+                <button class="footer__submit">Submit</button>
+              </div>
+            </div>
+            <hr />
+            <br />
+            <p>964896456</p>
+            <p>albertoleitao94@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="javascript.js"></script>
+    <script src="quotes.json"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+      });
+    </script>
+  </body>
+</html>

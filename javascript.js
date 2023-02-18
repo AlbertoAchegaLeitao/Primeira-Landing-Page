@@ -46,7 +46,7 @@ closeModal.addEventListener("click", () => {
   modal.classList.toggle("active");
 });
 //!API
-const quoteElement = document.querySelector(".quotes__wrapper");
+/*const quoteElement = document.querySelector(".quotes__wrapper");
 fetch("quotes.json")
   .then((response) => response.json())
   .then((quotes) => {
@@ -56,7 +56,7 @@ fetch("quotes.json")
             <div> ${quotes[0].quote} </div>
             <p>${quotes[0].name}</p>`;
 
-    quoteElement.append(divElem);
+    quoteElement.append(divElem);*/
     /*  quotes.forEach((quote) => {
       const divElem = document.createElement("div");
       divElem.classList.add("search-list-item");
